@@ -1,13 +1,16 @@
-%Documento principal do latex para uso no TCC da Univás.
+%Documento principal do latex para uso no TCC do curso de Sistemas de Informação da Univás.
+%Os alunos devem editar apenas os arquivos que estão no diretório "editaveis".
+%As figuras que forem utilizadas no TCC devem ser colocadas na pasta "imagens".
+
+%Atenção: Os alunos não devem editar os outros arquivos. Qualquer dúvida procure o professor de TCC e Desenvolvimento de Projetos
 
 \documentclass[a4paper, 12pt, chapter=TITLE, oneside, english, brazil]{abntex2}
 
-\usepackage{styles/CodeStyle}      %Formatação de códigos e listagens
+\usepackage{styles/CodeStyle}           %Formatação de códigos e listagens
 \usepackage{styles/EventFlowStyle} %Estilo para o quadro de fluxo de eventos
-\usepackage{styles/NuapaStyle}     %Estilo exigido pela Univás
+\usepackage{styles/NuapaStyle}         %Estilo exigido pela Univás
 
-%Início do documento
-\begin{document}
+\begin{document} %Início do documento
 
 \pretextual %Início dos Elementos Pré-Textuais
 
@@ -39,9 +42,8 @@
 %\citeoption{abnt-etal-cite=2}
 \citeoption{ABNT-final}
 
-\bibliography{nuapatex-options, biblio}			            % insere as REFERENCIAS (arquivo biblio.bib)
-%\bibliography{biblio}			            % insere as REFERENCIAS (arquivo biblio.bib)
-\addcontentsline{toc}{chapter}{REFERÊNCIAS} % adiciona o título no sumário
+\bibliography{nuapatex-options, biblio}               % insere as REFERÊNCIAS (arquivo biblio.bib)
+\addcontentsline{toc}{chapter}{REFERÊNCIAS} % adiciona o título das referências no Sumário
 
 \input{editaveis/20_Apendices}
 \input{editaveis/30_Anexos}
