@@ -1,13 +1,13 @@
 ##Arquivos gerados pela compilação dos documentos Latex##
 
-Principal.aux
-Principal.lof
-Principal.log
-Principal.lol
-Principal.loq
-Principal.lot
-Principal.pdf
-Principal.synctex.gz
-Principal.toc
+*.aux
+*.lof
+*.log
+*.lol
+*.loq
+*.lot
+*.pdf
+*.synctex.gz
+*.toc
 tmp/*
 
