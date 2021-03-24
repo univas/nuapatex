@@ -1,0 +1,54 @@
+Roteiro da aula de Latex
+
+- Introdução
+- Instalar o Miktex: https://miktex.org/download
+- Clone do repo: https://github.com/univas/nuapatex.git
+- Abrir o Miktex
+- Abrir o arquivo Principal.tex
+- Gerar o PDF
+- Visão geral do PDF
+- Mostrar a estrutura do projeto
+-- arquivo Principal.tex
+-- pasta editaveis
+-- pasta imagens
+	-- incluir nova imagem
+-- arquivo biblio.bib
+	-- incluir nova bibliografia
+	-- testar /cite e citeonline
+
+- Usando as tags
+\par
+\texttt{}
+\textbf{}
+\textit{}
+\cite{} //usado para referências
+\citeonline{} //usado para referências
+\chapter{}
+\section{}
+\subsection{}
+\begin{citacao}
+\end{citacao}
+\autoref{} //usado para capítulo, seção, e subseção
+\label{} //usado para imagens
+\ref{} //usado para imagens
+
+\begin{enumerate}
+  \item 
+  \item 
+\end{enumerate}
+
+\begin{itemize}
+  \item 
+  \item 
+\end{itemize}
+
+\begin{figure}[h!]
+  \centerline{\includegraphics[scale=0.65]{./imagens/nome_do_arquivo_da_imagem.png}}
+  \caption[Texto da legenda...]
+          {Texto da legenda...}
+\label{fig:exemplo1}
+\end{figure}
+
+\\  --- quebra de linha
+
+\url{}
